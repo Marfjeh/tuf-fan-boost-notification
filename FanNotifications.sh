@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Specify the path to the fan_boost_mode file
-fan_boost_mode_file="/sys/devices/platform/asus-nb-wmi/fan_boost_mode"
+fan_boost_mode_file="/sys/devices/platform/asus-nb-wmi/throttle_thermal_policy"
 
 # Variable to store the previous fan boost mode
 previous_mode=""
